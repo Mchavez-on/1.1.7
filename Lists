@@ -1,0 +1,22 @@
+#Python program to demonstrate creation of a list
+
+#Creating a list
+List = []
+print("Blank List: ")
+print(List)
+
+#Creating a list of numbers
+List = [10,20,14]
+print("\nList Items: ")
+print(List)
+
+#Creating a list of strings and accessing using index
+List = ["Geeks", "For", "Geeks"]
+print("\nList Items: ")
+print(List[0])
+print(List[2])
+
+#Creating a Mult-Dimensional list by nesting a list inside a list
+List = [['Geeks','For'],['Geeks']]
+print("\nMulti-Dimensional List: ")
+print(List)
